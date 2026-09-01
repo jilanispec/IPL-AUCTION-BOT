@@ -1,0 +1,152 @@
+[
+  {
+    "id": 187,
+    "name": "Ben Duckett",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "benduckett.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Finn Allen",
+    "role": "Wicket-Keeper",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "finnallen.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Jamie Smith",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "jamiesmith.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Jonny Bairstow",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "jonnybairstow.jpg"
+  },
+  {
+    "id": 191,
+    "name": "KS Bharat",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Wicket Keeper",
+    "image": "ksbharat.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Quinton de Kock",
+    "role": "Wicket-Keeper",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Wicket Keeper",
+    "image": "quintondekock.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Rahmanullah Gurbaz",
+    "role": "Wicket-Keeper",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Wicket Keeper",
+    "image": "rahmanullahgurbaz.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Benjamin McDermott",
+    "role": "Wicket-Keeper",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Wicket Keeper",
+    "image": "benjaminmcdermott.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Jordan Cox",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Wicket Keeper",
+    "image": "jordancox.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Josh Inglis",
+    "role": "Wicket-Keeper",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "joshinglis.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Kusal Mendis",
+    "role": "Wicket-Keeper",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Wicket Keeper",
+    "image": "kusalmendis.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Kusal Perera",
+    "role": "Wicket-Keeper",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Wicket Keeper",
+    "image": "kusalperera.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Shai Hope",
+    "role": "Wicket-Keeper",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "shaihope.jpg"
+  },
+  {
+    "id": 200,
+    "name": "Tim Seifert",
+    "role": "Wicket-Keeper",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Wicket Keeper",
+    "image": "timseifert.jpg"
+  },
+  {
+    "id": 201,
+    "name": "Tom Banton",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keeper",
+    "image": "tombanton.jpg"
+  }
+]

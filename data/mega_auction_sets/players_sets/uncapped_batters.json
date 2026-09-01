@@ -1,0 +1,102 @@
+[
+  {
+    "id": 287,
+    "name": "Abhinav Manohar",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "abhinavmanohar.jpg"
+  },
+  {
+    "id": 288,
+    "name": "Anmolpreet Singh",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "anmolpreetsingh.jpg"
+  },
+  {
+    "id": 289,
+    "name": "Atharva Taide",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "atharvataide.jpg"
+  },
+  {
+    "id": 290,
+    "name": "Danish Kalewar",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "danishkalewar.jpg"
+  },
+  {
+    "id": 291,
+    "name": "Kartik Sharma",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "kartiksharma.jpg"
+  },
+  {
+    "id": 292,
+    "name": "Manan Vohra",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "mananvohra.jpg"
+  },
+  {
+    "id": 293,
+    "name": "Mukul Choudhary",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "mukulchoudhary.jpg"
+  },
+  {
+    "id": 294,
+    "name": "Sahil Parakh",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "sahilparakh.jpg"
+  },
+  {
+    "id": 295,
+    "name": "Salil Arora",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "salilarora.jpg"
+  },
+  {
+    "id": 296,
+    "name": "Yash Dhull",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "Batter",
+    "image": "yashdhull.jpg"
+  }
+]

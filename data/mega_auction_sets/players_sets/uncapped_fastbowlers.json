@@ -1,0 +1,82 @@
+[
+  {
+    "id": 297,
+    "name": "Akash Madhwal",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "akashmadhwal.jpg"
+  },
+  {
+    "id": 298,
+    "name": "Ashok Sharma",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "ashoksharma.jpg"
+  },
+  {
+    "id": 299,
+    "name": "Brijesh Sharma",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "brijeshsharma.jpg"
+  },
+  {
+    "id": 300,
+    "name": "Ishan Porel",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "ishanporel.jpg"
+  },
+  {
+    "id": 301,
+    "name": "Kartik Tyagi",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "kartiktyagi.jpg"
+  },
+  {
+    "id": 302,
+    "name": "Kulwant Khejroliya",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "kulwantkhejroliya.jpg"
+  },
+  {
+    "id": 303,
+    "name": "Praful Hinge",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "prafulhinge.jpg"
+  },
+  {
+    "id": 304,
+    "name": "Sakib Hussain",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Fast Bowlers",
+    "image": "sakibhussain.jpg"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 173,
+    "name": "Ackeem Auguste",
+    "role": "Batsman",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "ackeemauguste.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Cameron Green",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "camerongreen.jpg"
+  },
+  {
+    "id": 175,
+    "name": "David Miller",
+    "role": "Batsman",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "davidmiller.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Devon Conway",
+    "role": "Batsman",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "devonconway.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Jake Fraser-McGurk",
+    "role": "Batsman",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "jakefrasermcgurk.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Mayank Agarwal",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "mayankagarwal.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Pathum Nissanka",
+    "role": "Batsman",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "pathumnissanka.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Prithvi Shaw",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "prithvishaw.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Rahul Tripathi",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "rahultripathi.jpg"
+  },
+  {
+    "id": 182,
+    "name": "Reeza Hendricks",
+    "role": "Batsman",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "reezahendricks.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Sarfaraz Khan",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "sarfarazkhan.jpg"
+  },
+  {
+    "id": 184,
+    "name": "Sediqullah Atal",
+    "role": "Batsman",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "sediqullahatal.jpg"
+  },
+  {
+    "id": 185,
+    "name": "Steve Smith",
+    "role": "Batsman",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "stevesmith.jpg"
+  },
+  {
+    "id": 186,
+    "name": "Tim Robinson",
+    "role": "Batsman",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "timrobinson.jpg"
+  }
+]

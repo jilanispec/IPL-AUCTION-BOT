@@ -1,0 +1,402 @@
+[
+  {
+    "id": 234,
+    "name": "Adam Milne",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "adammilne.jpg"
+  },
+  {
+    "id": 235,
+    "name": "Akash Deep",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "akashdeep.jpg"
+  },
+  {
+    "id": 236,
+    "name": "Alzarri Joseph",
+    "role": "Bowler",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "alzarrijoseph.jpg"
+  },
+  {
+    "id": 237,
+    "name": "Anrich Nortje",
+    "role": "Bowler",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "anrichnortje.jpg"
+  },
+  {
+    "id": 238,
+    "name": "Billy Stanlake",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "billystanlake.jpg"
+  },
+  {
+    "id": 239,
+    "name": "Binura Fernando",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "binurafernando.jpg"
+  },
+  {
+    "id": 240,
+    "name": "Chetan Sakariya",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "chetansakariya.jpg"
+  },
+  {
+    "id": 241,
+    "name": "Fazalhaq Farooqi",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "fazalhaqfarooqi.jpg"
+  },
+  {
+    "id": 242,
+    "name": "Gerald Coetzee",
+    "role": "Bowler",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "geraldcoetzee.jpg"
+  },
+  {
+    "id": 243,
+    "name": "Jacob Duffy",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "jacobduffy.jpg"
+  },
+  {
+    "id": 244,
+    "name": "Jason Behrendorff",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "jasonbehrendorff.jpg"
+  },
+  {
+    "id": 245,
+    "name": "Jhye Richardson",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "jhyerichardson.jpg"
+  },
+  {
+    "id": 246,
+    "name": "Josh Tongue",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "joshtongue.jpg"
+  },
+  {
+    "id": 247,
+    "name": "Joshua Little",
+    "role": "Bowler",
+    "country": "Ireland",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "joshualittle.jpg"
+  },
+  {
+    "id": 248,
+    "name": "Kuldeep Sen",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "kuldeepsen.jpg"
+  },
+  {
+    "id": 249,
+    "name": "Kyle Jamieson",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "kylejamieson.jpg"
+  },
+  {
+    "id": 250,
+    "name": "Luke Wood",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "lukewood.jpg"
+  },
+  {
+    "id": 251,
+    "name": "Lungi Ngidi",
+    "role": "Bowler",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "lungingidi.jpg"
+  },
+  {
+    "id": 252,
+    "name": "Matheesha Pathirana",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "matheeshapathirana.jpg"
+  },
+  {
+    "id": 253,
+    "name": "Matthew Potts",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "matthewpotts.jpg"
+  },
+  {
+    "id": 254,
+    "name": "Matt Henry",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "matthenry.jpg"
+  },
+  {
+    "id": 255,
+    "name": "Mustafizur Rahman",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "mustafizurrahman.jpg"
+  },
+  {
+    "id": 256,
+    "name": "Nahid Rana",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "nahidrana.jpg"
+  },
+  {
+    "id": 257,
+    "name": "Navdeep Saini",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "navdeepsaini.jpg"
+  },
+  {
+    "id": 258,
+    "name": "Naveen-ul-Haq",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "naveenulhaq.jpg"
+  },
+  {
+    "id": 259,
+    "name": "Obed McCoy",
+    "role": "Bowler",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "obedmccoy.jpg"
+  },
+  {
+    "id": 260,
+    "name": "Olly Stone",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 1.25,
+    "set": "Fast Bowlers",
+    "image": "ollystone.jpg"
+  },
+  {
+    "id": 261,
+    "name": "Richard Gleeson",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "richardgleeson.jpg"
+  },
+  {
+    "id": 262,
+    "name": "Riley Meredith",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "rileymeredith.jpg"
+  },
+  {
+    "id": 263,
+    "name": "Sandeep Warrier",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "sandeepwarrier.jpg"
+  },
+  {
+    "id": 264,
+    "name": "Saqib Mahmood",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "saqibmahmood.jpg"
+  },
+  {
+    "id": 265,
+    "name": "Shamar Joseph",
+    "role": "Bowler",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "shamarjoseph.jpg"
+  },
+  {
+    "id": 266,
+    "name": "Shivam Mavi",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "shivammavi.jpg"
+  },
+  {
+    "id": 267,
+    "name": "Shoriful Islam",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "shorifulislam.jpg"
+  },
+  {
+    "id": 268,
+    "name": "Spencer Johnson",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "spencerjohnson.jpg"
+  },
+  {
+    "id": 269,
+    "name": "Tanzim Hasan Sakib",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "tanzimhasansakib.jpg"
+  },
+  {
+    "id": 270,
+    "name": "Taskin Ahmed",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "taskinahmed.jpg"
+  },
+  {
+    "id": 271,
+    "name": "Umesh Yadav",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.5,
+    "set": "Fast Bowlers",
+    "image": "umeshyadav.jpg"
+  },
+  {
+    "id": 272,
+    "name": "Wes Agar",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "wesagar.jpg"
+  },
+  {
+    "id": 273,
+    "name": "William O'Rourke",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "williamorourke.jpg"
+  }
+]

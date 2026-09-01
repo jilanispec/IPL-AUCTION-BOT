@@ -1,0 +1,342 @@
+[
+  {
+    "id": 202,
+    "name": "Beau Webster",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.25,
+    "set": "Allrounders",
+    "image": "beauwebster.jpg"
+  },
+  {
+    "id": 203,
+    "name": "Ben Dwarshuis",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "bendwarshuis.jpg"
+  },
+  {
+    "id": 204,
+    "name": "Bevon-John Jacobs",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "bevonjohnjacobs.jpg"
+  },
+  {
+    "id": 205,
+    "name": "Charith Asalanka",
+    "role": "All-Rounder",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "charithasalanka.jpg"
+  },
+  {
+    "id": 206,
+    "name": "Cooper Connolly",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "cooperconnolly.jpg"
+  },
+  {
+    "id": 207,
+    "name": "Daniel Lawrence",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "daniellawrence.jpg"
+  },
+  {
+    "id": 208,
+    "name": "Daniel Sams",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "danielsams.jpg"
+  },
+  {
+    "id": 209,
+    "name": "Daryl Mitchell",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "darylmitchell.jpg"
+  },
+  {
+    "id": 210,
+    "name": "Dasun Shanaka",
+    "role": "All-Rounder",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "dasunshanaka.jpg"
+  },
+  {
+    "id": 211,
+    "name": "Deepak Hooda",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "deepakhooda.jpg"
+  },
+  {
+    "id": 212,
+    "name": "Dunith Wellalage",
+    "role": "All-Rounder",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "dunithwellalage.jpg"
+  },
+  {
+    "id": 213,
+    "name": "Dwaine Pretorius",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "dwainepretorius.jpg"
+  },
+  {
+    "id": 214,
+    "name": "George Garton",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "georgegarton.jpg"
+  },
+  {
+    "id": 215,
+    "name": "George Linde",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "georgelinde.jpg"
+  },
+  {
+    "id": 216,
+    "name": "Gulbadin Naib",
+    "role": "All-Rounder",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "gulbadinnaib.jpg"
+  },
+  {
+    "id": 217,
+    "name": "Jason Holder",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "jasonholder.jpg"
+  },
+  {
+    "id": 218,
+    "name": "Kyle Mayers",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 1.25,
+    "set": "Allrounders",
+    "image": "kylemayers.jpg"
+  },
+  {
+    "id": 219,
+    "name": "Liam Dawson",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "liamdawson.jpg"
+  },
+  {
+    "id": 220,
+    "name": "Liam Livingstone",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "liamlivingstone.jpg"
+  },
+  {
+    "id": 221,
+    "name": "Matthew Short",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.5,
+    "set": "Allrounders",
+    "image": "matthewshort.jpg"
+  },
+  {
+    "id": 222,
+    "name": "Michael Bracewell",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "michaelbracewell.jpg"
+  },
+  {
+    "id": 223,
+    "name": "Muhammad Abbas",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "muhammadabbas.jpg"
+  },
+  {
+    "id": 224,
+    "name": "Nathan Smith",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "nathansmith.jpg"
+  },
+  {
+    "id": 225,
+    "name": "Rachin Ravindra",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "rachinravindra.jpg"
+  },
+  {
+    "id": 226,
+    "name": "Rehan Ahmed",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "rehanahmed.jpg"
+  },
+  {
+    "id": 227,
+    "name": "Roston Chase",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 1.25,
+    "set": "Allrounders",
+    "image": "rostonchase.jpg"
+  },
+  {
+    "id": 228,
+    "name": "Sean Abbott",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "seanabbott.jpg"
+  },
+  {
+    "id": 229,
+    "name": "Tom Curran",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "tomcurran.jpg"
+  },
+  {
+    "id": 230,
+    "name": "Venkatesh Iyer",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "venkateshiyer.jpg"
+  },
+  {
+    "id": 231,
+    "name": "Wanindu Hasaranga",
+    "role": "All-Rounder",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Allrounders",
+    "image": "waninduhasaranga.jpg"
+  },
+  {
+    "id": 232,
+    "name": "Wiaan Mulder",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "wiaanmulder.jpg"
+  },
+  {
+    "id": 233,
+    "name": "Will Sutherland",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Allrounders",
+    "image": "willsutherland.jpg"
+  },
+  {
+    "id": 234,
+    "name": "Zak Foulkes",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Allrounders",
+    "image": "zakfoulkes.jpg"
+  },
+  {
+    "id": 321,
+    "name": "Vijay Shankar",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "vijayshankar.jpg"
+  }
+]

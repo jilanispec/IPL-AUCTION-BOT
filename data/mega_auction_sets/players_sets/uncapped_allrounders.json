@@ -1,0 +1,73 @@
+[
+  {
+    "id": 314,
+    "name": "Aman Khan",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "amankhan.jpg"
+  },
+  {
+    "id": 315,
+    "name": "Auqib Dar",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "auqibdar.jpg"
+  },
+  {
+    "id": 316,
+    "name": "Darshan Nalkande",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "darshannalkande.jpg"
+  },
+  {
+    "id": 317,
+    "name": "Dian Forrester",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "dianforrester.jpg"
+  },
+  {
+    "id": 318,
+    "name": "Eden Tom",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "edentom.jpg"
+  },
+  {
+    "id": 319,
+    "name": "Prashant Veer",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "prashantveer.jpg"
+  },
+  {
+    "id": 320,
+    "name": "Shivang Kumar",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Allrounders",
+    "image": "shivangkumar.jpg"
+  }
+ 
+]

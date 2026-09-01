@@ -1,0 +1,165 @@
+{
+    "auction_id": "AUC-E298B64A",
+    "auction_name": "Mega Auction",
+    "auction_type": "mega",
+    "chat_id": -1004412945197,
+    "host_id": 2079655933,
+    "host_username": "jilan97",
+    "status": "ENDED",
+    "loaded_set": "set3",
+    "current_set": "set3",
+    "current_index": 3,
+    "players": [
+        {
+            "id": 99,
+            "name": "R. Sai Kishore",
+            "role": "Bowler",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Spinners",
+            "image": "rsaikishore.jpg"
+        },
+        {
+            "id": 90,
+            "name": "Ajinkya Rahane",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Batter",
+            "image": "ajinkyarahane.jpg"
+        },
+        {
+            "id": 96,
+            "name": "Karun Nair",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Batter",
+            "image": "karunnair.jpg"
+        },
+        {
+            "id": 95,
+            "name": "Jitesh Sharma",
+            "role": "Wicket-Keeper",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Wicket Keepers",
+            "image": "jiteshsharma.jpg"
+        },
+        {
+            "id": 94,
+            "name": "Jayant Yadav",
+            "role": "All-Rounder",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "All-Rounders",
+            "image": "jayantyadav.jpg"
+        },
+        {
+            "id": 101,
+            "name": "Shahbaz Ahmed",
+            "role": "All-Rounder",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "All-Rounders",
+            "image": "shahbazahmed.jpg"
+        },
+        {
+            "id": 103,
+            "name": "Tushar Deshpande",
+            "role": "Bowler",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Fast Bowlers",
+            "image": "tushardeshpande.jpg"
+        },
+        {
+            "id": 91,
+            "name": "Devdutt Padikkal",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Batter",
+            "image": "devduttpadikkal.jpg"
+        },
+        {
+            "id": 97,
+            "name": "Manish Pandey",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Batter",
+            "image": "manishpandey.jpg"
+        },
+        {
+            "id": 92,
+            "name": "Harshit Rana",
+            "role": "Bowler",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Fast Bowlers",
+            "image": "harshitrana.jpg"
+        },
+        {
+            "id": 93,
+            "name": "Ishant Sharma",
+            "role": "Bowler",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Fast Bowlers",
+            "image": "ishantsharma.jpg"
+        },
+        {
+            "id": 98,
+            "name": "Nitish Kumar Reddy",
+            "role": "All-Rounder",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "All-Rounders",
+            "image": "nitishkumarreddy.jpg"
+        },
+        {
+            "id": 105,
+            "name": "Yash Dayal",
+            "role": "Bowler",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.5,
+            "set": "Fast Bowlers",
+            "image": "yashdayal.jpg"
+        }
+    ],
+    "current_player": null,
+    "current_bid": 0,
+    "leading_team": null,
+    "leading_manager_id": null,
+    "timer": 0,
+    "timer_version": 52,
+    "auction_message_id": 177,
+    "auction_chat_id": -1004412945197,
+    "skip_votes": [],
+    "pending_bid": null,
+    "teams": [
+        {
+            "name": "Csk",
+            "purse": 123.0,
+            "manager_username": "@jilan97",
+            "manager_id": 2079655933,
+            "players": []
+        }
+    ],
+    "sold_players": [],
+    "unsold_players": []
+}

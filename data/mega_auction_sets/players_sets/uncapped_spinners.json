@@ -1,0 +1,62 @@
+[
+  {
+    "id": 305,
+    "name": "Karn Sharma",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "karnsharma.jpg"
+  },
+  {
+    "id": 307,
+    "name": "Murugan Ashwin",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "muruganashwin.jpg"
+  },
+  {
+    "id": 308,
+    "name": "Pravin Dubey",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "pravindubey.jpg"
+  },
+  {
+    "id": 309,
+    "name": "Vignesh Puthur",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "vigneshputhur.jpg"
+  },
+  {
+    "id": 310,
+    "name": "Yash Raj Punja",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "yashrajpunja.jpg"
+  },
+  {
+    "id": 311,
+    "name": "KC Cariappa",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.3,
+    "set": "UC Spinners",
+    "image": "kccariappa.jpg"
+  }
+]

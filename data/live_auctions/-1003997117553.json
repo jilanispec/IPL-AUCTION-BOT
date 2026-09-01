@@ -1,0 +1,601 @@
+{
+    "auction_id": "AUC-27F46FCD",
+    "auction_name": "Mega Auction",
+    "auction_type": "mega",
+    "chat_id": -1003997117553,
+    "host_id": 2079655933,
+    "host_username": "jilan97",
+    "status": "PAUSED",
+    "loaded_set": "batters",
+    "current_set": "batters",
+    "current_index": 3,
+    "players": [
+        {
+            "id": 178,
+            "name": "Mayank Agarwal",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "mayankagarwal.jpg"
+        },
+        {
+            "id": 181,
+            "name": "Rahul Tripathi",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "rahultripathi.jpg"
+        },
+        {
+            "id": 173,
+            "name": "Ackeem Auguste",
+            "role": "Batsman",
+            "country": "West Indies",
+            "overseas": true,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "ackeemauguste.jpg"
+        },
+        {
+            "id": 174,
+            "name": "Cameron Green",
+            "role": "All-Rounder",
+            "country": "Australia",
+            "overseas": true,
+            "base_price": 2.0,
+            "set": "Batter",
+            "image": "camerongreen.jpg"
+        },
+        {
+            "id": 176,
+            "name": "Devon Conway",
+            "role": "Batsman",
+            "country": "New Zealand",
+            "overseas": true,
+            "base_price": 2.0,
+            "set": "Batter",
+            "image": "devonconway.jpg"
+        },
+        {
+            "id": 184,
+            "name": "Sediqullah Atal",
+            "role": "Batsman",
+            "country": "Afghanistan",
+            "overseas": true,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "sediqullahatal.jpg"
+        },
+        {
+            "id": 177,
+            "name": "Jake Fraser-McGurk",
+            "role": "Batsman",
+            "country": "Australia",
+            "overseas": true,
+            "base_price": 2.0,
+            "set": "Batter",
+            "image": "jakefrasermcgurk.jpg"
+        },
+        {
+            "id": 175,
+            "name": "David Miller",
+            "role": "Batsman",
+            "country": "South Africa",
+            "overseas": true,
+            "base_price": 2.0,
+            "set": "Batter",
+            "image": "davidmiller.jpg"
+        },
+        {
+            "id": 180,
+            "name": "Prithvi Shaw",
+            "role": "Batsman",
+            "country": "India",
+            "overseas": false,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "prithvishaw.jpg"
+        },
+        {
+            "id": 179,
+            "name": "Pathum Nissanka",
+            "role": "Batsman",
+            "country": "Sri Lanka",
+            "overseas": true,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "pathumnissanka.jpg"
+        },
+        {
+            "id": 186,
+            "name": "Tim Robinson",
+            "role": "Batsman",
+            "country": "New Zealand",
+            "overseas": true,
+            "base_price": 0.75,
+            "set": "Batter",
+            "image": "timrobinson.jpg"
+        }
+    ],
+    "current_player": {
+        "id": 185,
+        "name": "Steve Smith",
+        "role": "Batsman",
+        "country": "Australia",
+        "overseas": true,
+        "base_price": 2.0,
+        "set": "Batter",
+        "image": "stevesmith.jpg"
+    },
+    "current_bid": 2.0,
+    "leading_team": null,
+    "leading_manager_id": null,
+    "timer": 11,
+    "timer_version": 168,
+    "auction_message_id": 28886,
+    "auction_chat_id": -1003997117553,
+    "skip_votes": [],
+    "pending_bid": null,
+    "teams": [
+        {
+            "name": "csk",
+            "purse": 3.0,
+            "manager_username": "@jilan97",
+            "manager_id": 2079655933,
+            "players": [
+                {
+                    "id": 12,
+                    "name": "Josh Hazlewood",
+                    "country": "Australia",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 20.0,
+                    "price": 20.0
+                },
+                {
+                    "id": 47,
+                    "name": "Yuzvendra Chahal",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 16.0,
+                    "price": 16.0
+                },
+                {
+                    "id": 42,
+                    "name": "Travis Head",
+                    "country": "Australia",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 34.0,
+                    "price": 34.0
+                },
+                {
+                    "id": 4,
+                    "name": "Bhuvneshwar Kumar",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 24.0,
+                    "price": 24.0
+                },
+                {
+                    "id": 3,
+                    "name": "Axar Patel",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 19.0,
+                    "price": 19.0
+                },
+                {
+                    "id": 183,
+                    "name": "Sarfaraz Khan",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 0.75,
+                    "sold_price": 4.0,
+                    "price": 4.0
+                }
+            ]
+        },
+        {
+            "name": "rcb",
+            "purse": 16.299999999999997,
+            "manager_username": "@Kaka12577",
+            "manager_id": 7041797037,
+            "players": [
+                {
+                    "id": 8,
+                    "name": "Ishan Kishan",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 5.2,
+                    "price": 5.2
+                },
+                {
+                    "id": 39,
+                    "name": "Sunil Narine",
+                    "country": "West Indies",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 32.0,
+                    "price": 32.0
+                },
+                {
+                    "id": 11,
+                    "name": "Jos Buttler",
+                    "country": "England",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 20.0,
+                    "price": 20.0
+                },
+                {
+                    "id": 25,
+                    "name": "Noor Ahmad",
+                    "country": "Afghanistan",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 9.5,
+                    "price": 9.5
+                },
+                {
+                    "id": 30,
+                    "name": "Rinku Singh",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 37,
+                    "name": "Shreyas Iyer",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 28,
+                    "name": "Rashid Khan",
+                    "country": "Afghanistan",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 7.0,
+                    "price": 7.0
+                },
+                {
+                    "id": 41,
+                    "name": "Tim David",
+                    "country": "Australia",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 9.0,
+                    "price": 9.0
+                },
+                {
+                    "id": 21,
+                    "name": "Mohammed Shami",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 43,
+                    "name": "Trent Boult",
+                    "country": "New Zealand",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 10,
+                    "name": "Jofra Archer",
+                    "country": "England",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 34,
+                    "name": "Sam Curran",
+                    "country": "England",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                },
+                {
+                    "id": 40,
+                    "name": "Suryakumar Yadav",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 3.0,
+                    "price": 3.0
+                }
+            ]
+        },
+        {
+            "name": "dc",
+            "purse": 0.20000000000000284,
+            "manager_username": "@Manu4168",
+            "manager_id": 5003072678,
+            "players": [
+                {
+                    "id": 35,
+                    "name": "Sanju Samson",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 3.8,
+                    "price": 3.8
+                },
+                {
+                    "id": 24,
+                    "name": "Nicholas Pooran",
+                    "country": "West Indies",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 14.0,
+                    "price": 14.0
+                },
+                {
+                    "id": 13,
+                    "name": "Kagiso Rabada",
+                    "country": "South Africa",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 11.0,
+                    "price": 11.0
+                },
+                {
+                    "id": 5,
+                    "name": "Hardik Pandya",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 5.0,
+                    "price": 5.0
+                },
+                {
+                    "id": 2,
+                    "name": "Arshdeep Singh",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 4.0,
+                    "price": 4.0
+                },
+                {
+                    "id": 27,
+                    "name": "Phil Salt",
+                    "country": "England",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 6.0,
+                    "price": 6.0
+                },
+                {
+                    "id": 6,
+                    "name": "Heinrich Klaasen",
+                    "country": "South Africa",
+                    "overseas": true,
+                    "base_price": 2.0,
+                    "sold_price": 8.0,
+                    "price": 8.0
+                },
+                {
+                    "id": 29,
+                    "name": "Ravindra Jadeja",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 8.0,
+                    "price": 8.0
+                },
+                {
+                    "id": 45,
+                    "name": "Virat Kohli",
+                    "country": "India",
+                    "overseas": false,
+                    "base_price": 2.0,
+                    "sold_price": 60.0,
+                    "price": 60.0
+                }
+            ]
+        }
+    ],
+    "sold_players": [
+        {
+            "id": 35,
+            "name": "Sanju Samson",
+            "team": "dc",
+            "price": 3.8
+        },
+        {
+            "id": 8,
+            "name": "Ishan Kishan",
+            "team": "rcb",
+            "price": 5.2
+        },
+        {
+            "id": 12,
+            "name": "Josh Hazlewood",
+            "team": "csk",
+            "price": 20.0
+        },
+        {
+            "id": 47,
+            "name": "Yuzvendra Chahal",
+            "team": "csk",
+            "price": 16.0
+        },
+        {
+            "id": 24,
+            "name": "Nicholas Pooran",
+            "team": "dc",
+            "price": 14.0
+        },
+        {
+            "id": 39,
+            "name": "Sunil Narine",
+            "team": "rcb",
+            "price": 32.0
+        },
+        {
+            "id": 42,
+            "name": "Travis Head",
+            "team": "csk",
+            "price": 34.0
+        },
+        {
+            "id": 11,
+            "name": "Jos Buttler",
+            "team": "rcb",
+            "price": 20.0
+        },
+        {
+            "id": 25,
+            "name": "Noor Ahmad",
+            "team": "rcb",
+            "price": 9.5
+        },
+        {
+            "id": 30,
+            "name": "Rinku Singh",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 37,
+            "name": "Shreyas Iyer",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 28,
+            "name": "Rashid Khan",
+            "team": "rcb",
+            "price": 7.0
+        },
+        {
+            "id": 4,
+            "name": "Bhuvneshwar Kumar",
+            "team": "csk",
+            "price": 24.0
+        },
+        {
+            "id": 41,
+            "name": "Tim David",
+            "team": "rcb",
+            "price": 9.0
+        },
+        {
+            "id": 13,
+            "name": "Kagiso Rabada",
+            "team": "dc",
+            "price": 11.0
+        },
+        {
+            "id": 5,
+            "name": "Hardik Pandya",
+            "team": "dc",
+            "price": 5.0
+        },
+        {
+            "id": 21,
+            "name": "Mohammed Shami",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 43,
+            "name": "Trent Boult",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 2,
+            "name": "Arshdeep Singh",
+            "team": "dc",
+            "price": 4.0
+        },
+        {
+            "id": 10,
+            "name": "Jofra Archer",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 34,
+            "name": "Sam Curran",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 27,
+            "name": "Phil Salt",
+            "team": "dc",
+            "price": 6.0
+        },
+        {
+            "id": 6,
+            "name": "Heinrich Klaasen",
+            "team": "dc",
+            "price": 8.0
+        },
+        {
+            "id": 29,
+            "name": "Ravindra Jadeja",
+            "team": "dc",
+            "price": 8.0
+        },
+        {
+            "id": 45,
+            "name": "Virat Kohli",
+            "team": "dc",
+            "price": 60.0
+        },
+        {
+            "id": 40,
+            "name": "Suryakumar Yadav",
+            "team": "rcb",
+            "price": 3.0
+        },
+        {
+            "id": 3,
+            "name": "Axar Patel",
+            "team": "csk",
+            "price": 19.0
+        },
+        {
+            "id": 183,
+            "name": "Sarfaraz Khan",
+            "team": "csk",
+            "price": 4.0
+        }
+    ],
+    "unsold_players": [],
+    "squad_min": null,
+    "squad_max": null,
+    "os_limit": null,
+    "squad_settings_locked": false,
+    "squad_setup_started": false,
+    "loaded_sets": [
+        "marquee",
+        "batters"
+    ]
+}

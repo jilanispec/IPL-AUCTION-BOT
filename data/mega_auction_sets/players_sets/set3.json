@@ -1,0 +1,162 @@
+[
+  {
+    "id": 90,
+    "name": "Ajinkya Rahane",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Batter",
+    "image": "ajinkyarahane.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Devdutt Padikkal",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Batter",
+    "image": "devduttpadikkal.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Harshit Rana",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "harshitrana.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Ishant Sharma",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "ishantsharma.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Jayant Yadav",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "All-Rounders",
+    "image": "jayantyadav.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Jitesh Sharma",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Wicket Keepers",
+    "image": "jiteshsharma.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Karun Nair",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Batter",
+    "image": "karunnair.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Manish Pandey",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Batter",
+    "image": "manishpandey.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Nitish Kumar Reddy",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "All-Rounders",
+    "image": "nitishkumarreddy.jpg"
+  },
+  {
+    "id": 99,
+    "name": "R. Sai Kishore",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Spinners",
+    "image": "rsaikishore.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Sandeep Sharma",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "sandeepsharma.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Shahbaz Ahmed",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "All-Rounders",
+    "image": "shahbazahmed.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Shahrukh Khan",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Batter",
+    "image": "shahrukhkhan.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Tushar Deshpande",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "tushardeshpande.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Umran Malik",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "umranmalik.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Yash Dayal",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.5,
+    "set": "Fast Bowlers",
+    "image": "yashdayal.jpg"
+  }
+]

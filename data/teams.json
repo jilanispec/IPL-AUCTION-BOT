@@ -1,0 +1,30 @@
+[
+    {
+        "name": "CSK",
+        "purse": 120.0,
+        "manager_username": "@Kaka12577",
+        "manager_id": null,
+        "players": []
+    },
+    {
+        "name": "Mi",
+        "purse": 120.0,
+        "manager_username": "@jilan97",
+        "manager_id": null,
+        "players": []
+    },
+    {
+        "name": "DC",
+        "purse": 120.0,
+        "manager_username": "@@jqt798",
+        "manager_id": null,
+        "players": []
+    },
+    {
+        "name": "TVK",
+        "purse": 125.0,
+        "manager_username": "@vijay",
+        "manager_id": null,
+        "players": []
+    }
+]

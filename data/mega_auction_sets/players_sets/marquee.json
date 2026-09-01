@@ -1,0 +1,472 @@
+[
+  {
+    "id": 1,
+    "name": "Aiden Markram",
+    "role": "Batsman",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "aidenmarkram.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Arshdeep Singh",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "arshdeepsingh.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Axar Patel",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "axarpatel.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bhuvneshwar Kumar",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "bhuvneshwarkumar.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hardik Pandya",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "hardikpandya.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Heinrich Klaasen",
+    "role": "Wicket-Keeper",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keepers",
+    "image": "heinrichklaasen.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shimron Hetmyer",
+    "role": "Batsman",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "shimronhetmyer.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ishan Kishan",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "ishankishan.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "jaspritbumrah.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jofra Archer",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "jofraarcher.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Jos Buttler",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "josbuttler.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Josh Hazlewood",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "joshhazlewood.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Kagiso Rabada",
+    "role": "Bowler",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "kagisorabada.jpg"
+  },
+  {
+    "id": 14,
+    "name": "KL Rahul",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "klrahul.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Kuldeep Yadav",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "kuldeepyadav.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Lockie Ferguson",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Fast Bowlers",
+    "image": "lockieferguson.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Marco Jansen",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "All-Rounders",
+    "image": "marcojansen.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Marcus Stoinis",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "marcusstoinis.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Mitchell Marsh",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "All-Rounders",
+    "image": "mitchellmarsh.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Mitchell Starc",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "mitchellstarc.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Mohammed Shami",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "mohammedshami.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Mohammed Siraj",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "mohammedsiraj.jpg"
+  },
+  {
+    "id": 23,
+    "name": "MS Dhoni",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Wicket Keepers",
+    "image": "msdhoni.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nicholas Pooran",
+    "role": "Wicket-Keeper",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keepers",
+    "image": "nicholaspooran.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Noor Ahmad",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "noorahmad.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Pat Cummins",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "patcummins.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Phil Salt",
+    "role": "Wicket-Keeper",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Wicket Keepers",
+    "image": "philsalt.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Rashid Khan",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "rashidkhan.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Ravindra Jadeja",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "All-Rounders",
+    "image": "ravindrajadeja.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Rinku Singh",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "rinkusingh.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Rishabh Pant",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "rishabhpant.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Rohit Sharma",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "rohitsharma.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Ruturaj Gaikwad",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "ruturajgaikwad.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Sam Curran",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "samcurran.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Sanju Samson",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Wicket Keepers",
+    "image": "sanjusamson.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Shivam Dube",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "All-Rounders",
+    "image": "shivamdube.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Shreyas Iyer",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "shreyasiyer.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Shubman Gill",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "shubmangill.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Sunil Narine",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "All-Rounders",
+    "image": "sunilnarine.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Suryakumar Yadav",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "suryakumaryadav.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Tim David",
+    "role": "Batsman",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "timdavid.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Travis Head",
+    "role": "Batsman",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "travishead.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Trent Boult",
+    "role": "Bowler",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "trentboult.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Varun Chakaravarthy",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "varunchakaravarthy.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Virat Kohli",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "viratkohli.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Yashasvi Jaiswal",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Batter",
+    "image": "yashasvijaiswal.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Yuzvendra Chahal",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Marquee",
+    "image": "yuzvendrachahal.jpg"
+  }
+]

@@ -1,0 +1,22 @@
+{
+    "auction_id": "AUC-D457381F",
+    "auction_name": "Mega Auction",
+    "auction_type": "mega",
+    "chat_id": -1003997117553,
+    "host_id": 2079655933,
+    "host_username": "jilan97",
+    "status": "WAITING",
+    "loaded_set": null,
+    "current_set": null,
+    "current_index": 0,
+    "players": [],
+    "current_player": null,
+    "current_bid": 0,
+    "leading_team": null,
+    "timer": 20,
+    "auction_message_id": null,
+    "auction_chat_id": null,
+    "skip_votes": [],
+    "pending_bid": null,
+    "teams": []
+}

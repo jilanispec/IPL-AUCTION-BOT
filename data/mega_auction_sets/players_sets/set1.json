@@ -1,0 +1,232 @@
+[
+  {
+    "id": 48,
+    "name": "Abhishek Sharma",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "abhisheksharma.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Avesh Khan",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "aveshkhan.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Azmatullah Omarzai",
+    "role": "All-Rounder",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "azmatullahomarzai.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Deepak Chahar",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "deepakchahar.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Dhruv Jurel",
+    "role": "Wicket-Keeper",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Wicket Keepers",
+    "image": "dhruvjurel.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Glenn Phillips",
+    "role": "Wicket-Keeper",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Wicket Keepers",
+    "image": "glennphillips.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Harshal Patel",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "harshalpatel.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Khaleel Ahmed",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "khaleelahmed.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Krunal Pandya",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "krunalpandya.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Mayank Agarwal",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "mayankagarwal.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Mitchell Santner",
+    "role": "All-Rounder",
+    "country": "New Zealand",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "mitchellsantner.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Prasidh Krishna",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "prasidhkrishna.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Rajat Patidar",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "rajatpatidar.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Riyan Parag",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "riyanparag.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Romario Shepherd",
+    "role": "All-Rounder",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "romarioshepherd.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Rovman Powell",
+    "role": "Batsman",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "rovmanpowell.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Sai Sudharsan",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "saisudharsan.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Shardul Thakur",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "shardulthakur.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Sherfane Rutherford",
+    "role": "Batsman",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "sherfanerutherford.jpg"
+  },
+  {
+    "id": 67,
+    "name": "T. Natarajan",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Fast Bowlers",
+    "image": "tnatarajan.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Tilak Varma",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Batter",
+    "image": "tilakvarma.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Tristan Stubbs",
+    "role": "Wicket-Keeper",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Wicket Keepers",
+    "image": "tristanstubbs.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Washington Sundar",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "All-Rounders",
+    "image": "washingtonsundar.jpg"
+  }
+]

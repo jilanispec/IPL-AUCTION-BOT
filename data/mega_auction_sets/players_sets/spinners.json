@@ -1,0 +1,134 @@
+[
+  {
+    "id": 274,
+    "name": "Akeal Hosein",
+    "role": "Bowler",
+    "country": "West Indies",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "akealhosein.jpg"
+  },
+  {
+    "id": 275,
+    "name": "Maheesh Theekshana",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "maheeshtheekshana.jpg"
+  },
+  {
+    "id": 276,
+    "name": "Mujeeb Ur Rahman",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "mujeeburrahman.jpg"
+  },
+  {
+    "id": 277,
+    "name": "Qais Ahmad",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "qaisahmad.jpg"
+  },
+  {
+    "id": 278,
+    "name": "Rahul Chahar",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 1.0,
+    "set": "Spinners",
+    "image": "rahulchahar.jpg"
+  },
+  {
+    "id": 279,
+    "name": "Ravi Bishnoi",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 2.0,
+    "set": "Spinners",
+    "image": "ravibishnoi.jpg"
+  },
+  {
+    "id": 280,
+    "name": "Rishad Hossain",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "rishadhossain.jpg"
+  },
+  {
+    "id": 281,
+    "name": "Vijayakanth Viyaskanth",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "vijayakanthviyaskanth.jpg"
+  },
+  {
+    "id": 282,
+    "name": "Waqar Salamkheil",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Spinners",
+    "image": "waqarsalamkheil.jpg"
+  },
+  {
+    "id": 283,
+    "name": "Waqar Salamkheil",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 1.0,
+    "set": "Spinners",
+    "image": "waqarsalamkheil.jpg"
+  },
+  {
+    "id": 284,
+    "name": "Qais Ahmad",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "qaisahmad.jpg"
+  },
+  {
+    "id": 285,
+    "name": "Rishad Hossain",
+    "role": "Bowler",
+    "country": "Bangladesh",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "rishadhossain.jpg"
+  },
+  {
+    "id": 286,
+    "name": "Vijayakanth Viyaskanth",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "vijayakanthviyaskanth.jpg"
+  }
+]
+
+

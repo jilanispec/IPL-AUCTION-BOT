@@ -1,0 +1,192 @@
+[
+  {
+    "id": 71,
+    "name": "Allah Ghazanfar",
+    "role": "Bowler",
+    "country": "Afghanistan",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Spinners",
+    "image": "allahghazanfar.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Brydon Carse",
+    "role": "Bowler",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "brydoncarse.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Corbin Bosch",
+    "role": "All-Rounder",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "corbinbosch.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Dewald Brevis",
+    "role": "Batsman",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "dewaldbrevis.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Dushmantha Chameera",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "dushmanthachameera.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Jacob Bethell",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "jacobbethell.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Jamie Overton",
+    "role": "All-Rounder",
+    "country": "England",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "jamieoverton.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Jaydev Unadkat",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "jaydevunadkat.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Kamindu Mendis",
+    "role": "All-Rounder",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "kamindumendis.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Matthew Breetzke",
+    "role": "Wicket-Keeper",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Wicket Keepers",
+    "image": "matthewbreetzke.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Mitchell Owen",
+    "role": "All-Rounder",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "mitchellowen.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Mukesh Kumar",
+    "role": "Bowler",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "mukeshkumar.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Nandre Burger",
+    "role": "Bowler",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "nandreburger.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Nathan Ellis",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "nathanellis.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Nitish Rana",
+    "role": "Batsman",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "Batter",
+    "image": "nitishrana.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Nuwan Thushara",
+    "role": "Bowler",
+    "country": "Sri Lanka",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "nuwanthushara.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Rahul Tewatia",
+    "role": "All-Rounder",
+    "country": "India",
+    "overseas": false,
+    "base_price": 0.75,
+    "set": "All-Rounders",
+    "image": "rahultewatia.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Ryan Rickelton",
+    "role": "Wicket-Keeper",
+    "country": "South Africa",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Wicket Keepers",
+    "image": "ryanrickelton.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Xavier Bartlett",
+    "role": "Bowler",
+    "country": "Australia",
+    "overseas": true,
+    "base_price": 0.75,
+    "set": "Fast Bowlers",
+    "image": "xavierbartlett.jpg"
+  }
+]

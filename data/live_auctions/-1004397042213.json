@@ -1,0 +1,51 @@
+{
+    "auction_id": "AUC-EFEE8A31",
+    "auction_name": "Mega Auction",
+    "auction_type": "mega",
+    "chat_id": -1004397042213,
+    "host_id": 2079655933,
+    "host_username": "jilan97",
+    "status": "RUNNING",
+    "loaded_set": "marquee",
+    "current_set": "marquee",
+    "current_index": 47,
+    "players": [],
+    "current_player": {
+        "id": 13,
+        "name": "Kagiso Rabada",
+        "role": "Bowler",
+        "country": "South Africa",
+        "overseas": true,
+        "base_price": 2.0,
+        "set": "Marquee",
+        "image": "kagisorabada.jpg"
+    },
+    "current_bid": 2.0,
+    "leading_team": null,
+    "leading_manager_id": null,
+    "timer": 18,
+    "timer_version": 94,
+    "auction_message_id": 1418,
+    "auction_chat_id": -1004397042213,
+    "skip_votes": [],
+    "pending_bid": null,
+    "teams": [
+        {
+            "name": "Rcb",
+            "purse": 120.0,
+            "manager_username": "@jilan97",
+            "manager_id": 2079655933,
+            "players": []
+        }
+    ],
+    "sold_players": [],
+    "unsold_players": [],
+    "squad_min": null,
+    "squad_max": null,
+    "os_limit": null,
+    "squad_settings_locked": false,
+    "squad_setup_started": false,
+    "loaded_sets": [
+        "marquee"
+    ]
+}
