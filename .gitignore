@@ -3,4 +3,4 @@ __pycache__/
 *.pyc
 *.db
 *.sqlite
-*.sqlite3
+*.sqlite3bot_token.txt

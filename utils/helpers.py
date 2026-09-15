@@ -1,4 +1,6 @@
-# ====== IMPORTS ======
+#===== IMPORTS =====
+
+from aiogram.types import Message
 
 from config import ADMIN_IDS
 
@@ -7,7 +9,7 @@ from config import ADMIN_IDS
 def is_admin(user_id: int) -> bool:
     return user_id in ADMIN_IDS
     
-# ====== GROUP CHECK ======
+#===== GROUP CHECK =====
 
-def is_group(chat_type: str) -> bool:
-    return chat_type in ["group", "supergroup"]
+def is_group(message):
+    return message.chat.type in ("group", "supergroup")

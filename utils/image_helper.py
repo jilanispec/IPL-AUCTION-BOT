@@ -2,8 +2,42 @@ from PIL import Image, ImageOps, ImageDraw, ImageFont
 import os
 
 
-ASSETS_IMAGE_FOLDER = "assets/images"
-FONTS_FOLDER = "assets/fonts"
+#===== BASE DIRECTORY =====
+
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
+
+
+#===== ASSETS =====
+
+ASSETS_FOLDER = os.path.join(
+    BASE_DIR,
+    "assets"
+)
+
+ASSETS_IMAGE_FOLDER = os.path.join(
+    ASSETS_FOLDER,
+    "images"
+)
+
+FONTS_FOLDER = os.path.join(
+    ASSETS_FOLDER,
+    "fonts"
+)
+
+
+#===== DATA =====
+
+DATA_FOLDER = os.path.join(
+    BASE_DIR,
+    "data"
+)
+
+
+#===== FILES =====
 
 BLANK_IMAGE = os.path.join(
     ASSETS_IMAGE_FOLDER,
@@ -25,26 +59,44 @@ PRICE_FONT = os.path.join(
     "valve bd.otf"
 )
 
-TARGET_SIZE = (1600, 900)
+
+#===== IMAGE SIZE =====
+
+TARGET_SIZE = (
+    1600,
+    900
+)
 
 
-# ====== FONT LOADER ======
+#===== FONT LOADER =====
 
-def load_font(font_path, size):
+def load_font(
+    font_path,
+    size
+):
 
     try:
-        if os.path.exists(font_path):
+
+        if os.path.exists(
+            font_path
+        ):
+
             return ImageFont.truetype(
                 font_path,
                 size
             )
+
     except Exception as e:
-        print("FONT ERROR:", e)
+
+        print(
+            "FONT ERROR:",
+            repr(e)
+        )
 
     return ImageFont.load_default()
 
 
-# ====== DYNAMIC PLACEHOLDER ======
+#===== DYNAMIC PLACEHOLDER =====
 
 def create_placeholder(
     player_name,
@@ -52,8 +104,15 @@ def create_placeholder(
     base_price
 ):
 
-    if not os.path.exists(BLANK_IMAGE):
-        print("WARNING: blank_auction.jpg not found")
+    if not os.path.exists(
+        BLANK_IMAGE
+    ):
+
+        print(
+            "WARNING: blank_auction.jpg not found:",
+            BLANK_IMAGE
+        )
+
         return None
 
     image = Image.open(
@@ -64,22 +123,32 @@ def create_placeholder(
         image,
         TARGET_SIZE,
         method=Image.Resampling.LANCZOS,
-        centering=(0.5, 0.5)
+        centering=(
+            0.5,
+            0.5
+        )
     )
 
-    draw = ImageDraw.Draw(image)
+    draw = ImageDraw.Draw(
+        image
+    )
 
-    # ==================================
-    # PLAYER NAME
-    # ==================================
+
+    #===== PLAYER NAME =====
 
     draw.rectangle(
-        (180, 80, 1420, 280),
+        (
+            180,
+            80,
+            1420,
+            280
+        ),
         fill="white"
     )
 
-    # Uppercase ONLY on image
-    image_player_name = player_name.upper()
+    image_player_name = str(
+        player_name
+    ).upper()
 
     name_size = 160
 
@@ -91,40 +160,60 @@ def create_placeholder(
         )
 
         bbox = draw.textbbox(
-            (0, 0),
+            (
+                0,
+                0
+            ),
             image_player_name,
             font=name_font
         )
 
-        width = bbox[2] - bbox[0]
+        width = (
+            bbox[2]
+            - bbox[0]
+        )
 
         if width <= 1150:
+
             break
 
         name_size -= 5
 
     bbox = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0
+        ),
         image_player_name,
         font=name_font
     )
 
-    width = bbox[2] - bbox[0]
+    width = (
+        bbox[2]
+        - bbox[0]
+    )
 
     x = (
-        TARGET_SIZE[0] - width
+        TARGET_SIZE[0]
+        - width
     ) // 2
 
     draw.text(
-        (x, 115),
+        (
+            x,
+            115
+        ),
         image_player_name,
         font=name_font,
-        fill=(55, 35, 220)
+        fill=(
+            55,
+            35,
+            220
+        )
     )
 
-    # ==================================
-    # NATIONALITY
-    # ==================================
+
+    #===== NATIONALITY =====
 
     flag = {
         "India": "🇮🇳",
@@ -147,39 +236,48 @@ def create_placeholder(
     )
 
     draw.rectangle(
-        (200, 300, 1400, 500),
+        (
+            200,
+            300,
+            1400,
+            500
+        ),
         fill="white"
     )
 
-    # Fixed nationality font size = 130
     nationality_font = load_font(
         NATIONALITY_FONT,
         130
     )
 
-    # Default font for flag
     flag_font = ImageFont.load_default()
 
-    # Measure country name
     country_bbox = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0
+        ),
         country,
         font=nationality_font
     )
 
     country_width = (
-        country_bbox[2] - country_bbox[0]
+        country_bbox[2]
+        - country_bbox[0]
     )
 
-    # Measure flag
     flag_bbox = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0
+        ),
         flag,
         font=flag_font
     )
 
     flag_width = (
-        flag_bbox[2] - flag_bbox[0]
+        flag_bbox[2]
+        - flag_bbox[0]
     )
 
     gap = 25
@@ -191,21 +289,25 @@ def create_placeholder(
     )
 
     x = (
-        TARGET_SIZE[0] - total_width
+        TARGET_SIZE[0]
+        - total_width
     ) // 2
 
-    # Country
     draw.text(
-        (x, 340),
+        (
+            x,
+            340
+        ),
         country,
         font=nationality_font,
         fill="black"
     )
 
-    # Flag
     draw.text(
         (
-            x + country_width + gap,
+            x
+            + country_width
+            + gap,
             340
         ),
         flag,
@@ -213,54 +315,71 @@ def create_placeholder(
         fill="black"
     )
 
-    # ==================================
-    # BASE PRICE
-    # ==================================
+
+    #===== BASE PRICE =====
 
     price_text = (
         f"₹{float(base_price):.2f} Cr"
     )
 
     draw.rectangle(
-        (200, 520, 1400, 750),
+        (
+            200,
+            520,
+            1400,
+            750
+        ),
         fill="white"
     )
 
-    # Fixed price font size = 140
     price_font = load_font(
         PRICE_FONT,
         140
     )
 
     bbox = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0
+        ),
         price_text,
         font=price_font
     )
 
-    width = bbox[2] - bbox[0]
+    width = (
+        bbox[2]
+        - bbox[0]
+    )
 
     x = (
-        TARGET_SIZE[0] - width
+        TARGET_SIZE[0]
+        - width
     ) // 2
 
     draw.text(
-        (x, 570),
+        (
+            x,
+            570
+        ),
         price_text,
         font=price_font,
-        fill=(220, 30, 30)
+        fill=(
+            220,
+            30,
+            30
+        )
     )
 
-    # ==================================
-    # SAVE
-    # ==================================
 
-    output_path = (
-        "data/temp_auction_placeholder.jpg"
+    #===== SAVE PLACEHOLDER =====
+
+    output_path = os.path.join(
+        DATA_FOLDER,
+        "temp_auction_placeholder.jpg"
     )
 
     os.makedirs(
-        "data",
+        DATA_FOLDER,
         exist_ok=True
     )
 
@@ -272,7 +391,8 @@ def create_placeholder(
 
     return output_path
 
-# ====== PREPARE PLAYER IMAGE ======
+
+#===== PREPARE PLAYER IMAGE =====
 
 def prepare_player_image(
     image_name,
@@ -281,24 +401,34 @@ def prepare_player_image(
     base_price
 ):
 
-    output_path = (
-        "data/temp_auction_image.jpg"
+    output_path = os.path.join(
+        DATA_FOLDER,
+        "temp_auction_image.jpg"
     )
 
     try:
 
-        # ==================================
-        # REAL PLAYER IMAGE
-        # ==================================
+        #===== REAL PLAYER IMAGE =====
 
         if image_name:
+
+            image_name = str(
+                image_name
+            ).strip()
 
             image_path = os.path.join(
                 ASSETS_IMAGE_FOLDER,
                 image_name
             )
 
-            if os.path.exists(image_path):
+            print(
+                "PLAYER IMAGE CHECK:",
+                image_path
+            )
+
+            if os.path.exists(
+                image_path
+            ):
 
                 image = Image.open(
                     image_path
@@ -308,11 +438,14 @@ def prepare_player_image(
                     image,
                     TARGET_SIZE,
                     method=Image.Resampling.LANCZOS,
-                    centering=(0.5, 0.5)
+                    centering=(
+                        0.5,
+                        0.5
+                    )
                 )
 
                 os.makedirs(
-                    "data",
+                    DATA_FOLDER,
                     exist_ok=True
                 )
 
@@ -322,11 +455,20 @@ def prepare_player_image(
                     quality=95
                 )
 
+                print(
+                    "PLAYER IMAGE FOUND:",
+                    image_path
+                )
+
                 return output_path
 
-        # ==================================
-        # MISSING IMAGE
-        # ==================================
+            print(
+                "PLAYER IMAGE NOT FOUND:",
+                image_path
+            )
+
+
+        #===== MISSING IMAGE =====
 
         return create_placeholder(
             player_name,
@@ -334,11 +476,12 @@ def prepare_player_image(
             base_price
         )
 
+
     except Exception as e:
 
         print(
             "PLAYER IMAGE ERROR:",
-            e
+            repr(e)
         )
 
         return create_placeholder(

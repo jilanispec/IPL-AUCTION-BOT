@@ -684,7 +684,7 @@ def get_player_sets():
     )
 
 
-# ====== LOAD PLAYER SET ======
+''' ====== LOAD PLAYER SET ======
 
 def load_player_set(
     set_name,
@@ -918,7 +918,232 @@ def load_player_set(
     return len(
         players
     )
+'''
 
+#===== LOAD PLAYER SET =====
+
+def load_player_set(
+    set_name,
+    chat_id
+):
+
+    #===== SET GROUP CONTEXT =====
+
+    set_chat_context(
+        chat_id
+    )
+
+    #===== GET GROUP AUCTION =====
+
+    auction = get_auction(
+        chat_id
+    )
+
+    if not auction:
+        return "no_auction"
+
+    #===== DON'T LOAD DURING AUCTION =====
+
+    if auction.get(
+        "status"
+    ) == "RUNNING":
+
+        return "auction_running"
+
+    #===== DON'T LOAD CLOSED AUCTION =====
+
+    if auction.get(
+        "status"
+    ) in [
+        "ENDED",
+        "CANCELLED"
+    ]:
+
+        return "auction_ended"
+
+    #===== NORMALIZE SET NAME =====
+
+    set_name = str(
+        set_name
+    ).strip().lower()
+
+    if set_name.endswith(
+        ".json"
+    ):
+
+        set_name = set_name[:-5]
+
+    #===== REAL PLAYER SETS DIRECTORY =====
+    #
+    # manager.py is inside:
+    # /home/container/IPL-AUCTION-BOT/auction/
+    #
+    # One level up = IPL-AUCTION-BOT
+
+    BOT_DIR = os.path.dirname(
+        os.path.dirname(
+            os.path.abspath(__file__)
+        )
+    )
+
+    PLAYER_SETS_PATH = os.path.join(
+        BOT_DIR,
+        "data",
+        "mega_auction_sets",
+        "players_sets"
+    )
+
+    #===== SET FILE =====
+
+    file_path = os.path.join(
+        PLAYER_SETS_PATH,
+        f"{set_name}.json"
+    )
+
+    print(
+        "PLAYER SET FILE:",
+        file_path
+    )
+
+    if not os.path.exists(
+        file_path
+    ):
+
+        return False
+
+    #===== LOAD PLAYERS =====
+
+    players = load_json(
+        file_path
+    )
+
+    if not isinstance(
+        players,
+        list
+    ):
+
+        return False
+
+    if not players:
+
+        return False
+
+    #===== LOADED SET HISTORY =====
+
+    loaded_sets = auction.get(
+        "loaded_sets"
+    )
+
+    if not isinstance(
+        loaded_sets,
+        list
+    ):
+
+        loaded_sets = []
+
+    #===== PREVENT DUPLICATE SET =====
+
+    if set_name in [
+        str(x).strip().lower()
+        for x in loaded_sets
+    ]:
+
+        return "set_already_loaded"
+
+    #===== RANDOMIZE PLAYERS =====
+
+    players = list(
+        players
+    )
+
+    random.shuffle(
+        players
+    )
+
+    #===== ADD SET TO HISTORY =====
+
+    loaded_sets.append(
+        set_name
+    )
+
+    auction["loaded_sets"] = (
+        loaded_sets
+    )
+
+    #===== CURRENT SET =====
+
+    auction["loaded_set"] = (
+        set_name
+    )
+
+    auction["current_set"] = (
+        set_name
+    )
+
+    auction["current_index"] = 0
+
+    #===== ADD PLAYERS =====
+
+    existing_players = auction.get(
+        "players",
+        []
+    )
+
+    if not isinstance(
+        existing_players,
+        list
+    ):
+
+        existing_players = []
+
+    existing_players.extend(
+        players
+    )
+
+    auction["players"] = (
+        existing_players
+    )
+
+    #===== RESET CURRENT PLAYER =====
+
+    auction["current_player"] = None
+
+    auction["current_bid"] = 0
+
+    auction["leading_team"] = None
+
+    auction["leading_manager_id"] = None
+
+    #===== RESET TIMER =====
+
+    auction["timer"] = 20
+
+    auction["timer_version"] = (
+        auction.get(
+            "timer_version",
+            0
+        ) + 1
+    )
+
+    #===== RESET BID STATE =====
+
+    auction["skip_votes"] = []
+
+    auction["pending_bid"] = None
+
+    #===== WAITING =====
+
+    auction["status"] = "WAITING"
+
+    #===== SAVE =====
+
+    save_auction(
+        auction
+    )
+
+    return len(
+        players
+    )
 
 # ====== START AUCTION ======
 
