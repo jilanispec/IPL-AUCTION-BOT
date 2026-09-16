@@ -1,11 +1,11 @@
+#===== IMPORTS =====
+
 import os
 
 
 #===== BOT TOKEN =====
 
-BOT_TOKEN = "8987514657:AAHfe2UYs71cA_ssX5_akiG-d_RrF71YEaE"
-
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 #===== ADMIN IDS =====
 
