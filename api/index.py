@@ -1,5 +1,7 @@
 #===== IMPORTS =====
 
+from http.server import BaseHTTPRequestHandler
+
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -28,34 +30,57 @@ dp.include_router(commands_router)
 dp.include_router(callbacks_router)
 
 
-#===== VERCEL WEBHOOK =====
+#===== VERCEL HANDLER =====
 
-async def process_update(update_data):
+class handler(BaseHTTPRequestHandler):
 
-    await dp.feed_raw_update(
-        bot,
-        update_data
-    )
+    def do_GET(self):
 
+        self.send_response(200)
+        self.send_header(
+            "Content-Type",
+            "text/plain"
+        )
+        self.end_headers()
 
-#===== VERCEL ENTRY POINT =====
+        self.wfile.write(
+            b"IPL Auction Bot is running"
+        )
 
-async def handler(request):
+    def do_POST(self):
 
-    if request.method != "POST":
+        import asyncio
+        import json
 
-        return {
-            "statusCode": 200,
-            "body": "IPL Auction Bot is running"
-        }
+        content_length = int(
+            self.headers.get(
+                "Content-Length",
+                0
+            )
+        )
 
-    update_data = await request.json()
+        body = self.rfile.read(
+            content_length
+        )
 
-    await process_update(
-        update_data
-    )
+        update_data = json.loads(
+            body.decode("utf-8")
+        )
 
-    return {
-        "statusCode": 200,
-        "body": "OK"
-    }
+        asyncio.run(
+            dp.feed_raw_update(
+                bot,
+                update_data
+            )
+        )
+
+        self.send_response(200)
+        self.send_header(
+            "Content-Type",
+            "text/plain"
+        )
+        self.end_headers()
+
+        self.wfile.write(
+            b"OK"
+        )
